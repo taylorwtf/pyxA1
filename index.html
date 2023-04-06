@@ -7,13 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Matrix-themed Interactive Particle Sketch</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5BDLK4H');</script>
-  <!-- End Google Tag Manager -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
   <script src="sketch.js"></script>
   <style>
     body {
@@ -35,14 +29,10 @@
 </head>
 <body>
   <div id="controls">
-    <label>Particle count: <input type="range" id="particle-count" min="10" max="500" value="100" step="10"></label><br>
+    <label>Particle count: <input type="range" id="particle-count" min="10" max="1000" value="100" step="10"></label><br>
     <label>Speed: <input type="range" id="speed" min="0.5" max="5" value="1" step="0.5"></label><br>
     <label>Size: <input type="range" id="size" min="5" max="20" value="10" step="1"></label><br>
     <label>Randomize: <input type="checkbox" id="randomize"></label>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BDLK4H"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
   </div>
 </body>
 </html>
